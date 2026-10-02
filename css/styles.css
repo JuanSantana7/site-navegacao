@@ -1,0 +1,184 @@
+body {
+    background-color: #111111;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+/* MENU */
+
+nav {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-bottom: 2px solid #8b1e2d;
+}
+
+nav h1 {
+    color: #e63946;
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e63946;
+}
+
+/* BANNER */
+
+.banner {
+    width: 90%;
+    height: 300px;
+    margin: 30px auto;
+    padding: 30px;
+
+    background-image: url("../funk.jpg");
+    background-size: cover;
+    background-position: center;
+
+    border: 2px solid #8b1e2d;
+    border-radius: 10px;
+}
+
+.banner h2 {
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+/* CONTEUDO */
+
+.conteudo {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.conteudo h2 {
+    color: #e63946;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.conteudo p {
+    margin-bottom: 15px;
+}
+
+/* CARDS DA PAGINA INICIAL */
+
+.cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    width: 33%;
+    background-color: #1c1c1c;
+    padding: 15px;
+    border: 1px solid #8b1e2d;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+}
+
+.card h3 {
+    color: #e63946;
+}
+
+/* LISTAS */
+
+.lista {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border: 1px solid #8b1e2d;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.lista li {
+    margin: 10px;
+}
+
+/* PAGINA DE MUSICAS */
+
+.musicas {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.musica {
+    width: 30%;
+    background-color: #1c1c1c;
+    padding: 20px;
+    border: 1px solid #8b1e2d;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.musica img {
+    width: 100%;
+    height: 200px;
+}
+
+.musica h3 {
+    color: #e63946;
+    margin-top: 15px;
+}
+
+.musica p {
+    margin: 15px;
+}
+
+.musica a {
+    display: inline-block;
+    background-color: #8b1e2d;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.musica a:hover {
+    background-color: #e63946;
+}
+
+/* TABELA DA PAGINA SOBRE */
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #8b1e2d;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    background-color: #1c1c1c;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #8b1e2d;
+}
