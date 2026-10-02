@@ -5,8 +5,6 @@ body {
     margin: 0;
 }
 
-/* MENU */
-
 nav {
     background-color: #1c1c1c;
     padding: 20px;
@@ -37,8 +35,6 @@ nav a:hover {
     color: #e63946;
 }
 
-/* BANNER */
-
 .banner {
     width: 90%;
     height: 300px;
@@ -62,8 +58,6 @@ nav a:hover {
     font-size: 18px;
 }
 
-/* CONTEUDO */
-
 .conteudo {
     width: 90%;
     margin: 30px auto;
@@ -78,8 +72,6 @@ nav a:hover {
 .conteudo p {
     margin-bottom: 15px;
 }
-
-/* CARDS DA PAGINA INICIAL */
 
 .cards {
     display: flex;
@@ -104,8 +96,6 @@ nav a:hover {
     color: #e63946;
 }
 
-/* LISTAS */
-
 .lista {
     background-color: #1c1c1c;
     padding: 20px;
@@ -117,8 +107,6 @@ nav a:hover {
 .lista li {
     margin: 10px;
 }
-
-/* PAGINA DE MUSICAS */
 
 .musicas {
     display: flex;
@@ -161,8 +149,6 @@ nav a:hover {
 .musica a:hover {
     background-color: #e63946;
 }
-
-/* TABELA DA PAGINA SOBRE */
 
 table {
     width: 100%;
